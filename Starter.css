@@ -1,0 +1,50 @@
+body {
+    background-color: #E6E2DD;
+    font-family: cursive;
+    line-height: 1.6px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* by wrap I will let the items to move when size of the windows change*/
+    justify-content: space-around;
+    background-color: #E6E2DD;
+    padding: 15px;
+    color:rgb(15, 15, 14);
+  }
+  
+.flex-container > div {
+    width: 45%;
+    margin: 25px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 16px;
+    background-color: #D48166;;
+  }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 35px 35px;
+  }
+th, td {
+    padding: 8px;
+    text-align: center;    
+  }
+.right {
+  position: bottom;
+  }
+.flour {
+  float: left;
+  margin: 35px 35px;
+  width: 480px;
+}
+aside {
+    width: 30%;
+    padding: 35px;
+    margin: 35px;
+    float: right;
+    font-style: italic;
+    background-color: #373A36;
+    color: white;
+}

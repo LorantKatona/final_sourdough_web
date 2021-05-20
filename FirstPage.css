@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  font-family: cursive;
+  font-style: italic;
+}  
+/* Images */
+.logo{
+  position: absolute;
+  top: 8px;
+  right: 6px;
+  text-align: right;
+  max-width:100%;
+  height:auto;
+  float: right;
+}
+.leaven {
+  max-width:100%;
+  height:auto;
+  float: left;
+}
+.button_header {
+  transition-duration: 0.4s;
+  background-color: #E6E2DD;
+  border: none;
+  color: black;
+  padding: 0px 19px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 8px;
+  cursor: pointer;
+
+}
+.button_header:hover {
+
+  background-color: #373A36; 
+  color: white;
+}
+header {
+  top: 20px;
+
+}
+body {
+    background-color: #E6E2DD;
+    background-image: url("naslovna.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Verdana;
+    font-size: 16px;
+}
+
+.menu {
+  float: left;  
+  width: 10%;
+}
+
+.fa {
+  padding: 8px;
+  font-size: 15px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+/*The main articel*/
+.main {
+  color: black;
+  float: left;
+  width: 35%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+li {
+  padding-right: 25px;
+}
+li::before {
+  padding: 55px;
+}
+
+/* View setting for different media tools*/
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 50%;
+    padding: 0;
+  }
+  .menu {
+    width: 30%;
+  }
+  .right {
+    width: 100%;
+  }
+  .validator {
+    display: none;
+  }
+  .menu_button {
+    width: 20%;
+    height: 35px;
+    background-color: #E6E2DD;
+  }
+  
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main {
+    width: 100%;
+  }
+
+  .logo {
+    width: 25%;
+  }
+  .validator {
+    display: none;
+  }
+
+}
+
+
+.menu_button {
+  width: 80%;
+  height: 45px;
+  background-color: #E6E2DD;
+}
+
+footer {
+  background-color:#373A36;
+  color: whitesmoke;  
+  bottom: 0;
+  width: auto;
+  /*
+  position: absolute;margin-top:7px;
+  left: 16px;*/
+  font-size: 8px;
+}
+.validator{
+  bottom: 8px;
+  right: 6px;
+  text-align: right;
+  position: absolute;
+}
+.products {
+  font-size: 16px;
+  line-height: 20px;
+}
+ /* The leaven page*/
+
+.leaven_layout {
+   background-color: #E6E2DD;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 15%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 30%;}
+.col-10 {width: 30%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 10%;}

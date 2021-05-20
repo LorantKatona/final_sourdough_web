@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Contuct_us.css">
+    <link rel="stylesheet" href="FirstPage.css">
+    <title>Sourdough shop contact info</title>
+    </head>
+    <body>
+        <figure>
+            <img class="logo" src="fornaio.png" alt="A logo">
+          </figure>
+          
+        <button class="button_header" type="button" onclick="window.location.href='sourdough_webpage.html'"> Home
+        </button>
+
+        <h3>Contact Form</h3>
+
+        <div class="container">
+        <form action="/action_page.php">
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+            <label for="country">Your location</label><br>
+            <select id="country" name="country"><br>
+                <option value="australia">Finland</option>
+                <option value="canada">Europe</option>
+                <option value="usa">USA</option>
+                <option value="None">None of these</option>
+            </select>
+
+            <label for="subject">Subject</label><br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+
+    </body>
+</html>
