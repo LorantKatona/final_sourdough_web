@@ -14,9 +14,12 @@
   float: right;
 }
 .leaven {
-  max-width:100%;
+  max-width:50%;
   height:auto;
   float: left;
+}
+.leaven_layout {
+  max-width:50%;
 }
 .button_header {
   transition-duration: 0.4s;
@@ -156,10 +159,13 @@ footer {
   font-size: 16px;
   line-height: 20px;
 }
+
+
  /* The leaven page*/
 
 .leaven_layout {
    background-color: #E6E2DD;
+   width: 60%;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
